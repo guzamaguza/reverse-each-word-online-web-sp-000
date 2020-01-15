@@ -7,6 +7,7 @@ def reverse_each_word(sentence)
       newArray << word.reverse
     else
     newArray << word.reverse + " "
+    end
   end
   return newArray
 end
