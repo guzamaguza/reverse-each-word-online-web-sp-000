@@ -29,5 +29,5 @@ def reverse_each_word(sentence)
     newArray << word.reverse + " "
     end
   end
-  return newArray
+  #return newArray
 end
