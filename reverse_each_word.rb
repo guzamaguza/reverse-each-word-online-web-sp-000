@@ -3,10 +3,10 @@ def reverse_each_word(sentence)
   newArray = ""
 
   array.each do |word|
-    if word == array[array.length]
-      newArray << word.reverse
+    if word == array[array.length-1]
+    newArray << word.reverse
     else
-    newArray << " " + word.reverse
+    newArray << word.reverse + " "
     end
   end
   return newArray
