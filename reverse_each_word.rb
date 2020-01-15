@@ -1,4 +1,6 @@
 #using .each
+
+=begin
 def reverse_each_word(sentence)
   array = sentence.split(" ")
   newArray = ""
@@ -12,6 +14,8 @@ def reverse_each_word(sentence)
   end
   return newArray
 end
+=end
+
 
 #using .collect
 def reverse_each_word(sentence)
@@ -25,5 +29,5 @@ def reverse_each_word(sentence)
     newArray << word.reverse + " "
     end
   end
-  #return newArray
+  return newArray
 end
