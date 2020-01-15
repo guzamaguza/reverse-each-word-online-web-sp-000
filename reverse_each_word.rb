@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
 
   array.each do |word|
     if word == array[array.length]
-      newArray << word.reverse 
+      newArray << word.reverse
     else
     newArray << " " + word.reverse
     end
